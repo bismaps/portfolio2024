@@ -191,3 +191,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== PARALLAX EFFECT ====================*/
+var rellax = new Rellax('.rellax');

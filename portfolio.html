@@ -1,447 +1,754 @@
 <!DOCTYPE html>
-    <html lang="id">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="id">
 
-        <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
 
-        <!--==================== OWLCAROUSEL CSS ====================-->
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
-        <title>Bisma Putra Sulung</title>
-    </head>
-    <body class="prevsel" oncontextmenu="return false;">
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Bisma Sulung</a>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="index.html#home" class="nav__link">
-                                <i class="uil uil-estate nav__icon"></i> Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#projects" class="nav__link">
-                                <i class="uil uil-lightbulb-alt nav__icon"></i> Projects
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#videos" class="nav__link">
-                                <i class="uil uil-video nav__icon"></i> Video
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#photos" class="nav__link">
-                                <i class="uil uil-camera nav__icon"></i> Photo
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#action" class="nav__link">
-                                <i class="uil uil-eye nav__icon"></i> Action
-                            </a>
-                        </li>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#photos" class="nav__link active-link">
-                                <i class="uil uil-scenery nav__icon"></i> Portfolio
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
-                </div>
-                <div class="nav__btns">
-                    <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+    <!--==================== OWLCAROUSEL CSS ====================-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-            
-        </header>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== PROJECTS / PORTFOLIO ALBUM ====================-->
-            <section class="projects section" id="projects">
-                <h2 class="section__title">Project Album</h2>
-                <span class="section__subtitle">Recently Made</span>
+    <title>Bisma Putra Sulung</title>
+</head>
 
-                <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        <!--==================== PORTFOLIO 0 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio0.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+<body class="prevsel" oncontextmenu="return false;">
+    <!-- Parallax Background Containers -->
+    <div class="parallax__background">
+        <!-- Cluster 1 (Top) -->
+        <i class="uil uil-brackets-curly rellax parallax__icon" data-rellax-speed="-4"
+            style="top: 5%; left: 5%; font-size: 3.5rem; opacity: 0.15; color: var(--first-color);"></i>
+        <i class="uil uil-code rellax parallax__icon" data-rellax-speed="3"
+            style="top: 15%; left: 85%; font-size: 4rem; opacity: 0.1; color: var(--first-color-alt);"></i>
+        <i class="uil uil-server rellax parallax__icon" data-rellax-speed="-2"
+            style="top: 25%; left: 10%; font-size: 2rem; opacity: 0.2; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-layer-group rellax parallax__icon" data-rellax-speed="5"
+            style="top: 10%; left: 40%; font-size: 1.2rem; opacity: 0.6; color: var(--title-color);"></i>
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Fundraising Progress</h3>
-                                <p class="portfolio__description">Platform to check progress of a fundraising program that connected to a certain database.</p>
-                                <a href="https://bangungkjwsidoarjo.skom.id/" class="button button--flex button--small portfolio__button" target="_blank">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
+        <!-- Cluster 2 (Middle) -->
+        <i class="uil uil-window-grid rellax parallax__icon" data-rellax-speed="-6"
+            style="top: 35%; left: 75%; font-size: 2.8rem; opacity: 0.15; color: var(--first-color);"></i>
+        <i class="uil uil-pen rellax parallax__icon" data-rellax-speed="2"
+            style="top: 45%; left: 20%; font-size: 1.8rem; opacity: 0.3; color: var(--first-color-alt);"></i>
+        <i class="uil uil-cloud-compute rellax parallax__icon" data-rellax-speed="-3"
+            style="top: 55%; left: 90%; font-size: 3.8rem; opacity: 0.08; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-bolt rellax parallax__icon" data-rellax-speed="4"
+            style="top: 40%; left: 50%; font-size: 0.9rem; opacity: 0.7; color: var(--first-color);"></i>
 
-                        <!--==================== PORTFOLIO 1 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+        <!-- Cluster 3 (Bottom) -->
+        <i class="uil uil-arrow rellax parallax__icon" data-rellax-speed="-5"
+            style="top: 65%; left: 5%; font-size: 2.2rem; opacity: 0.4; color: var(--first-color-alt);"></i>
+        <i class="uil uil-brackets-curly rellax parallax__icon" data-rellax-speed="6"
+            style="top: 75%; left: 60%; font-size: 1.6rem; opacity: 0.3; color: var(--title-color);"></i>
+        <i class="uil uil-code rellax parallax__icon" data-rellax-speed="-1"
+            style="top: 85%; left: 15%; font-size: 3.2rem; opacity: 0.25; color: var(--first-color);"></i>
+        <i class="uil uil-server rellax parallax__icon" data-rellax-speed="2"
+            style="top: 80%; left: 85%; font-size: 1.4rem; opacity: 0.5; color: var(--first-color-lighter);"></i>
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Personal Portfolio</h3>
-                                <p class="portfolio__description">Focus to build personal branding from a website based personal portfolio to explore creativity.</p>
-                                <a href="https://bismaps.netlify.app/" class="button button--flex button--small portfolio__button" target="_blank">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
+        <!-- Small Fillers -->
+        <i class="uil uil-circle rellax parallax__icon" data-rellax-speed="8"
+            style="top: 20%; left: 30%; font-size: 0.6rem; opacity: 0.8; color: var(--first-color);"></i>
+        <i class="uil uil-square rellax parallax__icon" data-rellax-speed="-3"
+            style="top: 60%; left: 45%; font-size: 1rem; opacity: 0.5; color: var(--first-color-alt);"></i>
+        <i class="uil uil-triangle rellax parallax__icon" data-rellax-speed="5"
+            style="top: 90%; left: 35%; font-size: 1.3rem; opacity: 0.4; color: var(--title-color);"></i>
+        <i class="uil uil-star rellax parallax__icon" data-rellax-speed="-7"
+            style="top: 30%; left: 60%; font-size: 0.8rem; opacity: 0.7; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-circle rellax parallax__icon" data-rellax-speed="3"
+            style="top: 50%; left: 95%; font-size: 0.5rem; opacity: 0.8; color: var(--first-color);"></i>
+        <i class="uil uil-bolt rellax parallax__icon" data-rellax-speed="-2"
+            style="top: 95%; left: 5%; font-size: 1.8rem; opacity: 0.3; color: var(--first-color-alt);"></i>
 
-                        <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio2.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+        <!-- Cluster 4 (Page Mid - Qualification) -->
+        <i class="uil uil-brackets-curly rellax parallax__icon" data-rellax-speed="-3"
+            style="top: 120%; left: 80%; font-size: 3rem; opacity: 0.25; color: var(--first-color);"></i>
+        <i class="uil uil-layer-group rellax parallax__icon" data-rellax-speed="4"
+            style="top: 140%; left: 10%; font-size: 1.5rem; opacity: 0.3; color: var(--first-color-alt);"></i>
+        <i class="uil uil-window-grid rellax parallax__icon" data-rellax-speed="-5"
+            style="top: 160%; left: 50%; font-size: 1.2rem; opacity: 0.4; color: var(--title-color);"></i>
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Branding Website</h3>
-                                <p class="portfolio__description">Website that mostly used for branding, without image assets (except logo) and animated background.</p>
-                                <a href="https://bismaps.github.io/linktree/" class="button button--flex button--small portfolio__button" target="_blank">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
+        <!-- Cluster 5 (Page Bottom - Portfolio/Contact) -->
+        <i class="uil uil-code rellax parallax__icon" data-rellax-speed="2"
+            style="top: 180%; left: 20%; font-size: 2.5rem; opacity: 0.2; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-cloud-compute rellax parallax__icon" data-rellax-speed="-4"
+            style="top: 220%; left: 70%; font-size: 3.8rem; opacity: 0.15; color: var(--first-color);"></i>
+        <i class="uil uil-bolt rellax parallax__icon" data-rellax-speed="3"
+            style="top: 250%; left: 15%; font-size: 1.4rem; opacity: 0.5; color: var(--first-color-alt);"></i>
+        <i class="uil uil-pen rellax parallax__icon" data-rellax-speed="-2"
+            style="top: 280%; left: 85%; font-size: 1.1rem; opacity: 0.6; color: var(--title-color);"></i>
+        <i class="uil uil-server rellax parallax__icon" data-rellax-speed="5"
+            style="top: 290%; left: 40%; font-size: 1.6rem; opacity: 0.3; color: var(--first-color-lighter);"></i>
 
-                        <!--==================== PORTFOLIO 3 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio3.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+        <!-- Cluster 6 (Density Boost - Upper) -->
+        <i class="uil uil-arrow rellax parallax__icon" data-rellax-speed="-4"
+            style="top: 40%; left: 15%; font-size: 1.2rem; opacity: 0.6; color: var(--first-color-alt);"></i>
+        <i class="uil uil-brackets-curly rellax parallax__icon" data-rellax-speed="7"
+            style="top: 55%; left: 55%; font-size: 2.5rem; opacity: 0.2; color: var(--title-color);"></i>
+        <i class="uil uil-layer-group rellax parallax__icon" data-rellax-speed="-2"
+            style="top: 70%; left: 85%; font-size: 1.8rem; opacity: 0.5; color: var(--first-color);"></i>
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">QR Code Generator Website</h3>
-                                <p class="portfolio__description">Website to generate QR Code without ads and embedded logo in the middle, can be downloaded as png.</p>
-                                <a href="https://bismaps.github.io/kriyavikasqr/" class="button button--flex button--small portfolio__button" target="_blank">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
+        <!-- Cluster 7 (Density Boost - Mid) -->
+        <i class="uil uil-code rellax parallax__icon" data-rellax-speed="3"
+            style="top: 130%; left: 40%; font-size: 1.6rem; opacity: 0.25; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-window-grid rellax parallax__icon" data-rellax-speed="-5"
+            style="top: 150%; left: 5%; font-size: 3rem; opacity: 0.15; color: var(--first-color-alt);"></i>
+        <i class="uil uil-cloud-compute rellax parallax__icon" data-rellax-speed="6"
+            style="top: 170%; left: 90%; font-size: 1.4rem; opacity: 0.4; color: var(--first-color);"></i>
 
-                        <!--==================== PORTFOLIO 4 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio4.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+        <!-- Cluster 8 (Density Boost - Lower) -->
+        <i class="uil uil-pen rellax parallax__icon" data-rellax-speed="-3"
+            style="top: 210%; left: 30%; font-size: 6rem; opacity: 0.2; color: var(--title-color);"></i>
+        <i class="uil uil-server rellax parallax__icon" data-rellax-speed="4"
+            style="top: 240%; left: 60%; font-size: 4rem; opacity: 0.5; color: var(--first-color-alt);"></i>
+        <i class="uil uil-bolt rellax parallax__icon" data-rellax-speed="-6"
+            style="top: 260%; left: 10%; font-size: 2.5rem; opacity: 0.7; color: var(--first-color-lighter);"></i>
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Online Food Store</h3>
-                                <p class="portfolio__description">Adaptable website to order food by online with animated styles and multiple page inside.</p>
-                                <a href="https://bismaps.github.io/citrarasa/" class="button button--flex button--small portfolio__button" target="_blank">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
+        <!-- MASSIVE DENSITY INJECTION (Clusters 9-14) -->
+        <!-- Cluster 9 (Top Filler) -->
+        <i class="uil uil-star rellax parallax__icon" data-rellax-speed="2"
+            style="top: 8%; left: 25%; font-size: 0.8rem; opacity: 0.5; color: var(--first-color);"></i>
+        <i class="uil uil-circle rellax parallax__icon" data-rellax-speed="-5"
+            style="top: 12%; left: 70%; font-size: 0.5rem; opacity: 0.7; color: var(--title-color);"></i>
+        <i class="uil uil-code rellax parallax__icon" data-rellax-speed="4"
+            style="top: 18%; left: 50%; font-size: 2.5rem; opacity: 0.15; color: var(--first-color-alt);"></i>
+        <i class="uil uil-triangle rellax parallax__icon" data-rellax-speed="-2"
+            style="top: 22%; left: 90%; font-size: 1.2rem; opacity: 0.4; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-brackets-curly rellax parallax__icon" data-rellax-speed="6"
+            style="top: 28%; left: 15%; font-size: 3.8rem; opacity: 0.1; color: var(--first-color);"></i>
 
-                        <!--==================== PORTFOLIO 5 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio5.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+        <!-- Cluster 10 (Upper-Mid Filler) -->
+        <i class="uil uil-arrow rellax parallax__icon" data-rellax-speed="-3"
+            style="top: 42%; left: 80%; font-size: 1.2rem; opacity: 0.5; color: var(--first-color-alt);"></i>
+        <i class="uil uil-server rellax parallax__icon" data-rellax-speed="5"
+            style="top: 48%; left: 30%; font-size: 2rem; opacity: 0.2; color: var(--title-color);"></i>
+        <i class="uil uil-layer-group rellax parallax__icon" data-rellax-speed="-6"
+            style="top: 52%; left: 60%; font-size: 1.5rem; opacity: 0.4; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-cloud-compute rellax parallax__icon" data-rellax-speed="3"
+            style="top: 58%; left: 10%; font-size: 3rem; opacity: 0.1; color: var(--first-color);"></i>
+        <i class="uil uil-bolt rellax parallax__icon" data-rellax-speed="-4"
+            style="top: 62%; left: 45%; font-size: 1rem; opacity: 0.7; color: var(--first-color-alt);"></i>
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Auto Counter IoT with RFID</h3>
-                                <p class="portfolio__description">Internet of Things product that counts tapped identity card to count people inside a building.</p>
-                                <a href="https://drive.google.com/file/d/1uUBkkUZKMqAyuWuh6boeJu-257guuHWG/view?usp=sharing" class="button button--flex button--small portfolio__button" target="_blank">
-                                    More
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Cluster 11 (Mid-Page Saturation) -->
+        <i class="uil uil-window-grid rellax parallax__icon" data-rellax-speed="2"
+            style="top: 105%; left: 20%; font-size: 2.2rem; opacity: 0.3; color: var(--first-color);"></i>
+        <i class="uil uil-pen rellax parallax__icon" data-rellax-speed="-5"
+            style="top: 110%; left: 75%; font-size: 1.5rem; opacity: 0.5; color: var(--title-color);"></i>
+        <i class="uil uil-square rellax parallax__icon" data-rellax-speed="6"
+            style="top: 115%; left: 55%; font-size: 0.9rem; opacity: 0.6; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-code rellax parallax__icon" data-rellax-speed="-2"
+            style="top: 125%; left: 35%; font-size: 3.5rem; opacity: 0.15; color: var(--first-color-alt);"></i>
+        <i class="uil uil-brackets-curly rellax parallax__icon" data-rellax-speed="4"
+            style="top: 135%; left: 90%; font-size: 2.8rem; opacity: 0.2; color: var(--first-color);"></i>
+        <i class="uil uil-circle rellax parallax__icon" data-rellax-speed="-3"
+            style="top: 145%; left: 5%; font-size: 0.6rem; opacity: 0.7; color: var(--title-color);"></i>
 
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
+        <!-- Cluster 12 (Lower-Mid Saturation) -->
+        <i class="uil uil-server rellax parallax__icon" data-rellax-speed="5"
+            style="top: 155%; left: 65%; font-size: 1.8rem; opacity: 0.3; color: var(--first-color-alt);"></i>
+        <i class="uil uil-arrow rellax parallax__icon" data-rellax-speed="-7"
+            style="top: 165%; left: 25%; font-size: 1.2rem; opacity: 0.5; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-bolt rellax parallax__icon" data-rellax-speed="3"
+            style="top: 175%; left: 50%; font-size: 1.4rem; opacity: 0.6; color: var(--first-color);"></i>
+        <i class="uil uil-layer-group rellax parallax__icon" data-rellax-speed="-4"
+            style="top: 185%; left: 15%; font-size: 2.5rem; opacity: 0.25; color: var(--title-color);"></i>
+        <i class="uil uil-cloud-compute rellax parallax__icon" data-rellax-speed="7"
+            style="top: 190%; left: 80%; font-size: 3.8rem; opacity: 0.1; color: var(--first-color-alt);"></i>
 
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
+        <!-- Cluster 13 (Bottom Saturation) -->
+        <i class="uil uil-window-grid rellax parallax__icon" data-rellax-speed="-2"
+            style="top: 205%; left: 40%; font-size: 2.2rem; opacity: 0.3; color: var(--first-color);"></i>
+        <i class="uil uil-star rellax parallax__icon" data-rellax-speed="5"
+            style="top: 215%; left: 10%; font-size: 0.8rem; opacity: 0.6; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-pen rellax parallax__icon" data-rellax-speed="-6"
+            style="top: 225%; left: 70%; font-size: 1.6rem; opacity: 0.4; color: var(--title-color);"></i>
+        <i class="uil uil-code rellax parallax__icon" data-rellax-speed="2"
+            style="top: 235%; left: 90%; font-size: 3.2rem; opacity: 0.15; color: var(--first-color-alt);"></i>
+        <i class="uil uil-brackets-curly rellax parallax__icon" data-rellax-speed="-5"
+            style="top: 245%; left: 25%; font-size: 2.5rem; opacity: 0.2; color: var(--first-color);"></i>
 
-            <!--==================== VIDEO ALBUM ====================-->
-            <section class="video section" id="videos">
-                <h2 class="section__title">Video Album</h2>
-                <span class="section__subtitle">Taken and Edited</span>
+        <!-- Cluster 14 (Footer Filler) -->
+        <i class="uil uil-triangle rellax parallax__icon" data-rellax-speed="4"
+            style="top: 255%; left: 55%; font-size: 1.2rem; opacity: 0.5; color: var(--first-color-alt);"></i>
+        <i class="uil uil-circle rellax parallax__icon" data-rellax-speed="-3"
+            style="top: 265%; left: 85%; font-size: 0.5rem; opacity: 0.8; color: var(--title-color);"></i>
+        <i class="uil uil-square rellax parallax__icon" data-rellax-speed="6"
+            style="top: 275%; left: 5%; font-size: 0.9rem; opacity: 0.6; color: var(--first-color-lighter);"></i>
+        <i class="uil uil-server rellax parallax__icon" data-rellax-speed="-4"
+            style="top: 285%; left: 35%; font-size: 2rem; opacity: 0.3; color: var(--first-color);"></i>
+        <i class="uil uil-bolt rellax parallax__icon" data-rellax-speed="3"
+            style="top: 295%; left: 75%; font-size: 1.5rem; opacity: 0.7; color: var(--first-color-alt);"></i>
+    </div>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Bisma Sulung</a>
 
-                <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-
-                        <!--==================== VIDEO 1 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <iframe src="https://www.youtube.com/embed/6W6Q2yWmxs0?si=J6JQLvuVvxz_vb8D" class="portfolio__iframe"></iframe>
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Multicamera Music</h3>
-                                <p class="portfolio__description">Collaborating musical instruments in separate videos to be stitched together into one video.</p>
-                            </div>
-                        </div>
-
-                        <!--==================== VIDEO 2 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <iframe src="https://www.youtube.com/embed/RtRqi58wHDQ?si=gCb4GPW60tLl7P7F" class="portfolio__iframe"></iframe>
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Historical Documentary</h3>
-                                <p class="portfolio__description">Memory and history belongs side by side, by documentary videos history can be remembered.</p>
-                            </div>
-                        </div>
-
-                        <!--==================== VIDEO 3 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <iframe src="https://www.youtube.com/embed/x_x9EEO9peU?si=jvx-cITbExBRZTlk" class="portfolio__iframe"></iframe>
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Explanation Video</h3>
-                                <p class="portfolio__description">Explaining something with visual and audio might ease us to make people understand.</p>
-                            </div>
-                        </div>
-
-                        <!--==================== VIDEO 4 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <iframe src="https://www.youtube.com/embed/quVN3s_oLIs?si=VP87sPEPd1etk-hx" class="portfolio__iframe"></iframe>
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Product Presentation</h3>
-                                <p class="portfolio__description">In order to present a product, a demonstration and informative video must be made.</p>
-                            </div>
-                        </div>
-
-                        <!--==================== VIDEO 5 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <iframe src="https://www.youtube.com/embed/jo1589B8GpM?si=Spqu43qKC5cgQjxv" class="portfolio__iframe"></iframe>
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Project Recording</h3>
-                                <p class="portfolio__description">Big scale project with whole organization involved in order to make performing arts.</p>
-                            </div>
-                        </div>
-                        
-                        <!--==================== VIDEO 6 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <iframe src="https://www.youtube.com/embed/k_JnfTcVrlo?si=lQTyAg3fGeYd6POU" class="portfolio__iframe"></iframe>
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">E-Sports Livestream</h3>
-                                <p class="portfolio__description">Making e-sports tournament live on the internet, so people that wasn't on site can watch.</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
-
-            <!--==================== PHOTOS ====================-->
-            <section class="photos section" id="photos">
-                <div class="photos__container">
-                    <div class="photos__data">
-                        <h2 class="section__title">Photo Album</h2>
-                        <span class="section__subtitle">Taken and Edited</span>
-                    </div>
-                    <div class="photos__box">
-                        <div class="photos__dream">
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/13dizeaozsnYcVPrAzZQUT3_YsJf9qCm6"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1T0XjsOooGMoU7v2apYoQtVHBp5dfgJ9e"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1O96gaMdpluvsL4OBCZmiiWqXtdKQtXhJ"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/12SitR_PL-30ozeKAqP0DS8zsCwige6x6"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1ij-Nf5j37bRBdT4BIA9w3-Ca6e1qXQSw"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/10a4eB3UpiwQHUEg-mt1l1fgmaDHuGwoW"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1TnjIFcle7FzK6EaIDwJ116n4nKdpIjjh"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1vDgVO3rs4DI2ijBmTDBNxIYHU1a6J0Lq"></div>                            
-                        </div>
-
-                        <div class="photos__dream">
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1oIjUiZed9SYH6KK0aPX8Aj_jKcbosr4e"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1LB0oLTlyHl9j-lchvvy4R6ExE_Hdyzi4"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1BaGmRIvUxb6tNhKYqmN1TEaPB0nZho23"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1F13R5_JL73RCC1ZTjvVdDEUeJAGa0rzz"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/13esS0NLd9_6JekL032J2cGPf2XxUoil7"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/14Uqiab9aunLq6HF9WdMtglyeNeTrPe_Q"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1kW30N7djsu8DUBFGu7Dg5U-bCKZoBR3x"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1T0pAbxvmJZBD7SfEkGkjFNzk-2GApqGT"></div>
-                        </div>
-        
-                        <div class="photos__dream">
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1ZN9GY5loYQeU3tTaTh8xRijRUHZH2iTP"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1zaZRZv-4EHu4muZSLN9TYR_PkGjoAMZp"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1JctNGqdV9HqKF-cYTL0XcaKbZGgOtIpj"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/19qpzi9QVlQmANK-TjsbSjn1ry2Psy-54"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1e0E5CxpsjwuzaSX2hDG4GTeX5RHys4vU"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1NnOPELiQ4EOvKktP_HkBtuAUj4O9xYc6"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1drKBql5rSoh2BZY94f2whtFW-TYlEj-F"></div>
-                            <div class="photos"><img src="https://lh3.googleusercontent.com/d/1QVDwJwtRZY4t_K91IWdlZ6ij1uxeImcY"></div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== ACTION ====================-->
-            <section class="action section" id="action">
-                <div class="action__container">
-                    <div class="action__data">
-                        <h2 class="section__title">Action Album</h2>
-                        <span class="section__subtitle">Field Situation</span>
-                    </div>
-                    <div class="action__box">
-                        <div class="action__dream">          
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1-ZXfzfMwvGk_sqrsBIQB5-QvdcK1qOHK"></div> 
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1oTjBxHC5LBU2FCEPDMVRleO1nFk16LQ0"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1QYn6z_HCeiS9RVeiQEqwjQVFff7_IRSR"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1dJ3Eh2ilx6UKGRSCWYSOfDxrdI_HJgGa"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1n_Cw57kt54TFLjNLwc5vvP5myTTn2Zgw"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/15ZacK-2BfOaBmN2c2vew7tLIz9oQSvnk"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1Svgk0XLhBvx3cp2G2mIbwB1_eZ_AlDwk"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/16JNUPIA8mi3QqeZQ55g3ivIM7mL5eB9m"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/17lBjcoegrfbYMvJVP-n5ufSpDyj-yG22"></div>              
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1hhbxbEmmIaK3Pp3W1Dq475OgCSmJya2e"></div>              
-                        </div>
-                        <div class="action__dream">
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1j4XGA6YkF9Gp2p_SVdzMND_tSiDd1GbF"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1uPV37LxY1esURbM7KaZ5wcf6MTUYc4xG"></div>  
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1n0uWBNL-7DKYqCsCfeo0TisvT2TQY-Rf"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1AQuo9WD2UKXB4_3CD6FOXQfcpAL9wI1r"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1d59evKHpEx5usH5-hvvcVpShzPaOlc0U"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1Tgx1C877pkAZ9YU416Fyr0lVc5HpL9vA"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1k2Lii_RSOqrjNz9zNqrRD5jitSO6wkRt"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1P1kOen31vEVu_yPNQidvwQe772ZxXdrt"></div> 
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1NIkydl6tkoZAA58Qf-zM0cmZRgI_CPHG"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1fpqWAhLkwKyG25mCmKSNwK0YJsdaL0O4"></div>           
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1CbSlHBEklzqr-RnumebgtXlC8ZPBa2XH"></div>            
-                        </div>
-                        <div class="action__dream">
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1FJcSiKfqLgKluKNAGxhqsbcRXFDgBtps"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1qSagSj2-hkL-3Ahrm6a4zS5ERLp2Vpo0"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1GmdUhBYU5EdOuu14m0CgVcglwaR85p4X"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1O4Ce4bF6y-I5L9IbiCKFf2nhMz2r8koU"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1gdagM4YJZT-ecr0KUtc0twXPh8tIJ0pE"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1bGxvXKmO9MEnP5ipx20F31YDy7WmFjei"></div>   
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1XIgmX3VpqF1wAkhw1fU_YPd_BBiAc5hb"></div>  
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1Xva0My2cIztQU4srNQjFOsHoGOZzBVNV"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1zokhvEWtWset53PUus-5opky26yLPNaf"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1UXf5agav4oiOErK6Vhapj33inZ3RpbV8"></div>             
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1B-ibiAgaRxDD7o5RHKD8u_9khCFjPhQ8 "></div>             
-                        </div>
-                        <div class="action__dream">
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/12oF0mpvyliZRhjix-C0qFJ8dnWdNl2IP"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/197bja1czRKbFpVRT7KSoTS2oiYvZl9av"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/15SMsEZSilMJ70zNJXU2LVpeTgmTcwAF4"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1SPBBS88wLNFjQUSSAVbzklPI653-YvH5"></div> 
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1qSBXIY8ZSlMivblvkxgE-UMuQFXJIdQs"></div>  
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1RNFdkq4nm2Dag_M0z7bWZY2XlHrasybq"></div> 
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1vW44WNAEor8WoI7za8G8dincFwk1a5cx"></div>
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1bGCWDhI0n_Y8APg2QX4rrrPYoTvHVL4o"></div>             
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1uX4zvLHxbdbTXCk7aibiW2831K1kLP7j"></div>            
-                            <div class="action"><img src="https://lh3.googleusercontent.com/d/1CFescIH6cTihDrLsWUzrsWl2IT_7pvmJ"></div>            
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Further Information</span>
-                
-                <div class="contact__container container grid">
-                <!--==================== CONTACT 1 ====================-->
-                    <div class="contact__information">
-                        <a href="https://api.whatsapp.com/send/?phone=%2B6281222217309" target="_blank">
-                            <i class="uil uil-whatsapp contact__icon"></i>
-                            <h3 class="contact__title">WhatsApp</h3>
-                            <span class="contact__subtitle">+6281222217309</span>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="index.html#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Home
                         </a>
-                    </div>
-                <!--==================== CONTACT 2 ====================-->
-                    <div class="contact__information">
-                        <a href="mailto:bismacyrus@gmail.com" target="_blank">
-                            <i class="uil uil-envelope contact__icon"></i>
-                            <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">bismacyrus@gmail.com</span>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="uil uil-lightbulb-alt nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#videos" class="nav__link">
+                            <i class="uil uil-video nav__icon"></i> Video
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#photos" class="nav__link">
+                            <i class="uil uil-camera nav__icon"></i> Photo
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#action" class="nav__link">
+                            <i class="uil uil-eye nav__icon"></i> Action
+                        </a>
+                    </li>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#photos" class="nav__link active-link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== PROJECTS / PORTFOLIO ALBUM ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Project Album</h2>
+            <span class="section__subtitle">Recently Made</span>
+
+            <div class="portfolio__grid container grid">
+                <!--==================== PORTFOLIO 0 ====================-->
+                <div class="portfolio__card">
+                    <img src="assets/img/portfolio0.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Fundraising Progress</h3>
+                        <p class="portfolio__description">Platform to check progress of a fundraising program that
+                            connected to a certain database.</p>
+                        <a href="https://bangungkjwsidoarjo.skom.id/"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            More
+                            <i class="uil uil-arrow-right button__icon"></i>
                         </a>
                     </div>
                 </div>
-            </section>
-        </main>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">             
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <!--==================== FOOTER LEFT ====================-->
-                    <div class="footer__social1">
-                        <p>&#169; bismaps. All rights reserved.</p>
-                    </div>
+                <!--==================== PORTFOLIO 1 ====================-->
+                <div class="portfolio__card">
+                    <img src="assets/img/portfolio1.png" alt="" class="portfolio__img" oncontextmenu="return false;">
 
-                    <!--==================== FOOTER LEFT ====================-->
-                    <div></div>
-
-                    <!--==================== FOOTER RIGHT ====================-->
-                    <div class="footer__socials">
-                        <a href="https://www.instagram.com/bismaps/" target="_blank" class="footer__social">
-                            <i class="uil uil-instagram"></i>
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Personal Portfolio</h3>
+                        <p class="portfolio__description">Focus to build personal branding from a website based
+                            personal portfolio to explore creativity.</p>
+                        <a href="https://bismaps.netlify.app/"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            More
+                            <i class="uil uil-arrow-right button__icon"></i>
                         </a>
+                    </div>
+                </div>
 
-                        <a href="https://www.linkedin.com/in/bismaps/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin-alt"></i>
+                <!--==================== PORTFOLIO 2 ====================-->
+                <div class="portfolio__card">
+                    <img src="assets/img/portfolio2.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Branding Website</h3>
+                        <p class="portfolio__description">Website that mostly used for branding, without image
+                            assets (except logo) and animated background.</p>
+                        <a href="https://bismaps.github.io/linktree/"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 3 ====================-->
+                <div class="portfolio__card">
+                    <img src="assets/img/portfolio3.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">QR Code Generator Website</h3>
+                        <p class="portfolio__description">Website to generate QR Code without ads and embedded logo
+                            in the middle, can be downloaded as png.</p>
+                        <a href="https://bismaps.github.io/kriyavikasqr/"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 4 ====================-->
+                <div class="portfolio__card">
+                    <img src="assets/img/portfolio4.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Online Food Store</h3>
+                        <p class="portfolio__description">Adaptable website to order food by online with animated
+                            styles and multiple page inside.</p>
+                        <a href="https://bismaps.github.io/citrarasa/"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 5 ====================-->
+                <div class="portfolio__card">
+                    <img src="assets/img/portfolio5.png" alt="" class="portfolio__img" oncontextmenu="return false;">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Auto Counter IoT with RFID</h3>
+                        <p class="portfolio__description">Internet of Things product that counts tapped identity
+                            card to count people inside a building.</p>
+                        <a href="https://drive.google.com/file/d/1uUBkkUZKMqAyuWuh6boeJu-257guuHWG/view?usp=sharing"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            More
+                            <i class="uil uil-arrow-right button__icon"></i>
                         </a>
                     </div>
                 </div>
             </div>
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
+        </section>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+        <!--==================== VIDEO ALBUM ====================-->
+        <section class="video section" id="videos">
+            <h2 class="section__title">Video Album</h2>
+            <span class="section__subtitle">Taken and Edited</span>
 
-        <!--==================== IONICONS JS ====================-->
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <div class="portfolio__grid container grid">
 
-        <!--==================== OWLCAROUSEL JS ====================-->
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+                <!--==================== VIDEO 1 ====================-->
+                <div class="portfolio__card">
+                    <img src="https://img.youtube.com/vi/6W6Q2yWmxs0/hqdefault.jpg" alt="" class="portfolio__img">
 
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Multicamera Music</h3>
+                        <p class="portfolio__description">Collaborating musical instruments in separate videos to be
+                            stitched together into one video.</p>
+                        <a href="https://www.youtube.com/watch?v=6W6Q2yWmxs0"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== VIDEO 2 ====================-->
+                <div class="portfolio__card">
+                    <img src="https://img.youtube.com/vi/RtRqi58wHDQ/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Historical Documentary</h3>
+                        <p class="portfolio__description">Memory and history belongs side by side, by documentary
+                            videos history can be remembered.</p>
+                        <a href="https://www.youtube.com/watch?v=RtRqi58wHDQ"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== VIDEO 3 ====================-->
+                <div class="portfolio__card">
+                    <img src="https://img.youtube.com/vi/x_x9EEO9peU/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Explanation Video</h3>
+                        <p class="portfolio__description">Explaining something with visual and audio might ease us
+                            to make people understand.</p>
+                        <a href="https://www.youtube.com/watch?v=x_x9EEO9peU"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== VIDEO 4 ====================-->
+                <div class="portfolio__card">
+                    <img src="https://img.youtube.com/vi/quVN3s_oLIs/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Product Presentation</h3>
+                        <p class="portfolio__description">In order to present a product, a demonstration and
+                            informative video must be made.</p>
+                        <a href="https://www.youtube.com/watch?v=quVN3s_oLIs"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== VIDEO 5 ====================-->
+                <div class="portfolio__card">
+                    <img src="https://img.youtube.com/vi/jo1589B8GpM/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Project Recording</h3>
+                        <p class="portfolio__description">Big scale project with whole organization involved in
+                            order to make performing arts.</p>
+                        <a href="https://www.youtube.com/watch?v=jo1589B8GpM"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== VIDEO 6 ====================-->
+                <div class="portfolio__card">
+                    <img src="https://img.youtube.com/vi/k_JnfTcVrlo/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">E-Sports Livestream</h3>
+                        <p class="portfolio__description">Making e-sports tournament live on the internet, so people
+                            that wasn't on site can watch.</p>
+                        <a href="https://www.youtube.com/watch?v=k_JnfTcVrlo"
+                            class="button button--flex button--small portfolio__button" target="_blank">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== PHOTOS ====================-->
+        <section class="photos section" id="photos">
+            <h2 class="section__title">Photo Album</h2>
+            <span class="section__subtitle">Taken and Edited</span>
+
+            <div class="portfolio__collage container">
+                <!-- Photo 1 -->
+                <img src="assets/img/local_photos/13dizeaozsnYcVPrAzZQUT3_YsJf9qCm6.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 2 -->
+                <img src="assets/img/local_photos/1T0XjsOooGMoU7v2apYoQtVHBp5dfgJ9e.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 3 -->
+                <img src="assets/img/local_photos/1O96gaMdpluvsL4OBCZmiiWqXtdKQtXhJ.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 4 -->
+                <img src="assets/img/local_photos/12SitR_PL-30ozeKAqP0DS8zsCwige6x6.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 5 -->
+                <img src="assets/img/local_photos/1ij-Nf5j37bRBdT4BIA9w3-Ca6e1qXQSw.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 6 -->
+                <img src="assets/img/local_photos/10a4eB3UpiwQHUEg-mt1l1fgmaDHuGwoW.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 7 -->
+                <img src="assets/img/local_photos/1TnjIFcle7FzK6EaIDwJ116n4nKdpIjjh.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 8 -->
+                <img src="assets/img/local_photos/1vDgVO3rs4DI2ijBmTDBNxIYHU1a6J0Lq.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 9 -->
+                <img src="assets/img/local_photos/1oIjUiZed9SYH6KK0aPX8Aj_jKcbosr4e.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 10 -->
+                <img src="assets/img/local_photos/1LB0oLTlyHl9j-lchvvy4R6ExE_Hdyzi4.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 11 -->
+                <img src="assets/img/local_photos/1BaGmRIvUxb6tNhKYqmN1TEaPB0nZho23.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 12 -->
+                <img src="assets/img/local_photos/1F13R5_JL73RCC1ZTjvVdDEUeJAGa0rzz.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 13 -->
+                <img src="assets/img/local_photos/13esS0NLd9_6JekL032J2cGPf2XxUoil7.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 14 -->
+                <img src="assets/img/local_photos/14Uqiab9aunLq6HF9WdMtglyeNeTrPe_Q.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 15 -->
+                <img src="assets/img/local_photos/1kW30N7djsu8DUBFGu7Dg5U-bCKZoBR3x.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 16 -->
+                <img src="assets/img/local_photos/1T0pAbxvmJZBD7SfEkGkjFNzk-2GApqGT.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 17 -->
+                <img src="assets/img/local_photos/1ZN9GY5loYQeU3tTaTh8xRijRUHZH2iTP.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 18 -->
+                <img src="assets/img/local_photos/1zaZRZv-4EHu4muZSLN9TYR_PkGjoAMZp.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 19 -->
+                <img src="assets/img/local_photos/1JctNGqdV9HqKF-cYTL0XcaKbZGgOtIpj.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 20 -->
+                <img src="assets/img/local_photos/19qpzi9QVlQmANK-TjsbSjn1ry2Psy-54.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 21 -->
+                <img src="assets/img/local_photos/1e0E5CxpsjwuzaSX2hDG4GTeX5RHys4vU.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 22 -->
+                <img src="assets/img/local_photos/1NnOPELiQ4EOvKktP_HkBtuAUj4O9xYc6.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 23 -->
+                <img src="assets/img/local_photos/1drKBql5rSoh2BZY94f2whtFW-TYlEj-F.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Photo 24 -->
+                <img src="assets/img/local_photos/1QVDwJwtRZY4t_K91IWdlZ6ij1uxeImcY.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+            </div>
+        </section>
+        </div>
+        </div>
+        </div>
+        </section>
+
+        <!--==================== ACTION ====================-->
+        <section class="action section" id="action">
+            <h2 class="section__title">Action Album</h2>
+            <span class="section__subtitle">Field Situation</span>
+
+            <div class="portfolio__collage container">
+                <!-- Action 1 -->
+                <img src="assets/img/local_photos/1-ZXfzfMwvGk_sqrsBIQB5-QvdcK1qOHK.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 2 -->
+                <img src="assets/img/local_photos/1oTjBxHC5LBU2FCEPDMVRleO1nFk16LQ0.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 3 -->
+                <img src="assets/img/local_photos/1QYn6z_HCeiS9RVeiQEqwjQVFff7_IRSR.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 4 -->
+                <img src="assets/img/local_photos/1dJ3Eh2ilx6UKGRSCWYSOfDxrdI_HJgGa.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 5 -->
+                <img src="assets/img/local_photos/1n_Cw57kt54TFLjNLwc5vvP5myTTn2Zgw.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 6 -->
+                <img src="assets/img/local_photos/15ZacK-2BfOaBmN2c2vew7tLIz9oQSvnk.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 7 -->
+                <img src="assets/img/local_photos/1Svgk0XLhBvx3cp2G2mIbwB1_eZ_AlDwk.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 8 -->
+                <img src="assets/img/local_photos/16JNUPIA8mi3QqeZQ55g3ivIM7mL5eB9m.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 9 -->
+                <img src="assets/img/local_photos/17lBjcoegrfbYMvJVP-n5ufSpDyj-yG22.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 10 -->
+                <img src="assets/img/local_photos/1hhbxbEmmIaK3Pp3W1Dq475OgCSmJya2e.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 11 -->
+                <img src="assets/img/local_photos/1j4XGA6YkF9Gp2p_SVdzMND_tSiDd1GbF.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 12 -->
+                <img src="assets/img/local_photos/1uPV37LxY1esURbM7KaZ5wcf6MTUYc4xG.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 13 -->
+                <img src="assets/img/local_photos/1n0uWBNL-7DKYqCsCfeo0TisvT2TQY-Rf.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 14 -->
+                <img src="assets/img/local_photos/1AQuo9WD2UKXB4_3CD6FOXQfcpAL9wI1r.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 15 -->
+                <img src="assets/img/local_photos/1d59evKHpEx5usH5-hvvcVpShzPaOlc0U.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 16 -->
+                <img src="assets/img/local_photos/1Tgx1C877pkAZ9YU416Fyr0lVc5HpL9vA.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 17 -->
+                <img src="assets/img/local_photos/1k2Lii_RSOqrjNz9zNqrRD5jitSO6wkRt.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 18 -->
+                <img src="assets/img/local_photos/1P1kOen31vEVu_yPNQidvwQe772ZxXdrt.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 19 -->
+                <img src="assets/img/local_photos/1NIkydl6tkoZAA58Qf-zM0cmZRgI_CPHG.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 20 -->
+                <img src="assets/img/local_photos/1fpqWAhLkwKyG25mCmKSNwK0YJsdaL0O4.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 21 -->
+                <img src="assets/img/local_photos/1CbSlHBEklzqr-RnumebgtXlC8ZPBa2XH.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 22 -->
+                <img src="assets/img/local_photos/1FJcSiKfqLgKluKNAGxhqsbcRXFDgBtps.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 23 -->
+                <img src="assets/img/local_photos/1qSagSj2-hkL-3Ahrm6a4zS5ERLp2Vpo0.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 24 -->
+                <img src="assets/img/local_photos/1GmdUhBYU5EdOuu14m0CgVcglwaR85p4X.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 25 -->
+                <img src="assets/img/local_photos/1O4Ce4bF6y-I5L9IbiCKFf2nhMz2r8koU.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 26 -->
+                <img src="assets/img/local_photos/1gdagM4YJZT-ecr0KUtc0twXPh8tIJ0pE.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 27 -->
+                <img src="assets/img/local_photos/1bGxvXKmO9MEnP5ipx20F31YDy7WmFjei.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 28 -->
+                <img src="assets/img/local_photos/1XIgmX3VpqF1wAkhw1fU_YPd_BBiAc5hb.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 29 -->
+                <img src="assets/img/local_photos/1Xva0My2cIztQU4srNQjFOsHoGOZzBVNV.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 30 -->
+                <img src="assets/img/local_photos/1zokhvEWtWset53PUus-5opky26yLPNaf.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 31 -->
+                <img src="assets/img/local_photos/1UXf5agav4oiOErK6Vhapj33inZ3RpbV8.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 32 -->
+                <img src="assets/img/local_photos/1B-ibiAgaRxDD7o5RHKD8u_9khCFjPhQ8.jpg " alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 33 -->
+                <img src="assets/img/local_photos/12oF0mpvyliZRhjix-C0qFJ8dnWdNl2IP.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 34 -->
+                <img src="assets/img/local_photos/197bja1czRKbFpVRT7KSoTS2oiYvZl9av.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 35 -->
+                <img src="assets/img/local_photos/15SMsEZSilMJ70zNJXU2LVpeTgmTcwAF4.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 36 -->
+                <img src="assets/img/local_photos/1SPBBS88wLNFjQUSSAVbzklPI653-YvH5.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 37 -->
+                <img src="assets/img/local_photos/1qSBXIY8ZSlMivblvkxgE-UMuQFXJIdQs.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 38 -->
+                <img src="assets/img/local_photos/1RNFdkq4nm2Dag_M0z7bWZY2XlHrasybq.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 39 -->
+                <img src="assets/img/local_photos/1vW44WNAEor8WoI7za8G8dincFwk1a5cx.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 40 -->
+                <img src="assets/img/local_photos/1bGCWDhI0n_Y8APg2QX4rrrPYoTvHVL4o.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 41 -->
+                <img src="assets/img/local_photos/1uX4zvLHxbdbTXCk7aibiW2831K1kLP7j.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+                <!-- Action 42 -->
+                <img src="assets/img/local_photos/1CFescIH6cTihDrLsWUzrsWl2IT_7pvmJ.jpg" alt="" class="portfolio__img"
+                    oncontextmenu="return false;">
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Further Information</span>
+
+            <div class="contact__container container grid">
+                <!--==================== CONTACT 1 ====================-->
+                <div class="contact__information">
+                    <a href="https://api.whatsapp.com/send/?phone=%2B6281222217309" target="_blank">
+                        <i class="uil uil-whatsapp contact__icon"></i>
+                        <h3 class="contact__title">WhatsApp</h3>
+                        <span class="contact__subtitle">+6281222217309</span>
+                    </a>
+                </div>
+                <!--==================== CONTACT 2 ====================-->
+                <div class="contact__information">
+                    <a href="mailto:bismacyrus@gmail.com" target="_blank">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">bismacyrus@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <!--==================== FOOTER LEFT ====================-->
+                <div class="footer__social1">
+                    <p>&#169; bismaps. All rights reserved.</p>
+                </div>
+
+                <!--==================== FOOTER LEFT ====================-->
+                <div></div>
+
+                <!--==================== FOOTER RIGHT ====================-->
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/bismaps/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/bismaps/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+
+    <!--==================== IONICONS JS ====================-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--==================== OWLCAROUSEL JS ====================-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <!--==================== RELLAX JS ====================-->
+    <script src="assets/js/rellax.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
