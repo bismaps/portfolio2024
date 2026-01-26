@@ -803,7 +803,10 @@ img {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
   border-radius: .5rem;
   justify-self: center;
 }
@@ -817,9 +820,11 @@ img {
 .portfolio__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+  font-weight: var(--font-medium);
 }
 
 .portfolio__description {
+  font-size: var(--small-font-size);
   margin-bottom: var(--mb-0-75);
 }
 
@@ -1377,12 +1382,16 @@ img {
     padding: 6rem 0 2rem 2.5rem;
   }
 
+  .portfolio__card.services__content {
+    padding: 1.5rem;
+  }
+
   .services__modal-content {
     width: 450px;
   }
 
   .portfolio__img {
-    width: 320px;
+    width: 100%;
   }
 
   .portfolio__iframe {
@@ -1630,4 +1639,29 @@ img {
     column-count: 3;
     /* Maintain 3 on desktop */
   }
+}
+
+/*==================== PROJECT SHOWCASE MODAL (Added to match Index styles) ====================*/
+.project__showcase-modal {
+  padding: 1.5rem;
+}
+
+.project__showcase {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.project__showcase-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project__showcase-img {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.project__showcase-desc {
+  font-size: var(--small-font-size);
 }
