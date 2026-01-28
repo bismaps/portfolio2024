@@ -1665,3 +1665,10 @@ img {
 .project__showcase-desc {
   font-size: var(--small-font-size);
 }
+
+/* Hide heavy parallax icons on mobile to improve performance while keeping the core set */
+@media screen and (max-width: 768px) {
+  .parallax__icon--dense {
+    display: none !important;
+  }
+}
