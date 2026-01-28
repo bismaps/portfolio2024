@@ -53,3 +53,29 @@ You can view the site directly by opening `index.html` in any modern web browser
     *   `css/`: Stylesheets (Main layout, variables, responsive rules).
     *   `js/`: Interactive logic (Menu toggle, scroll active links).
     *   `img/`: Optimized local image assets.
+
+## SEO & Verification
+
+This site is optimized for search engines and social media sharing.
+
+### 1. How to Verify SEO Score (Immediate)
+You can check the technical SEO performance before Google indexes the site:
+1.  Open the website in **Google Chrome**.
+2.  Right-click anywhere and select **Inspect**.
+3.  Go to the **Lighthouse** tab.
+4.  Select "SEO" and "Desktop/Mobile".
+5.  Click **Analyze page load**.
+    *   *You should see a high score (90-100) due to the new meta tags, `sitemap.xml`, and valid HTML.*
+
+### 2. Google Search Console (Long-term)
+To ensure Google indexes your site:
+1.  Go to [Google Search Console](https://search.google.com/search-console).
+2.  Add your property: `https://bismaps.netlify.app`.
+3.  Go to **Sitemaps** and submit your new sitemap URL: `https://bismaps.netlify.app/sitemap.xml`.
+    *   *This tells Google exactly what pages to crawl.*
+
+### 3. Rich Snippets (JSON-LD)
+We added structured data (Schema.org) to your profile.
+*   **Test Tool**: Use the [Google Rich Results Test](https://search.google.com/test/rich-results).
+*   **Paste your URL** or the code from `index.html`.
+*   It should detect a valid **"Person"** entity with your Job Title, Skills, and Experience.
