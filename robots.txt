@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bismaps.netlify.app/sitemap.xml
