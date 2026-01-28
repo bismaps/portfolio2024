@@ -70,8 +70,8 @@ You can check the technical SEO performance before Google indexes the site:
 ### 2. Google Search Console (Long-term)
 To ensure Google indexes your site:
 1.  Go to [Google Search Console](https://search.google.com/search-console).
-2.  Add your property: `https://bismaps.netlify.app`.
-3.  Go to **Sitemaps** and submit your new sitemap URL: `https://bismaps.netlify.app/sitemap.xml`.
+2.  Add your property: `https://bismaps.vercel.app`.
+3.  Go to **Sitemaps** and submit your new sitemap URL: `https://bismaps.vercel.app/sitemap.xml`.
     *   *This tells Google exactly what pages to crawl.*
 
 ### 3. Rich Snippets (JSON-LD)
